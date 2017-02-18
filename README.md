@@ -24,8 +24,10 @@ Code is licensed under the Apache 2.0 license.
 Part 1
 =======
 Gutenberg htmls were all modified to remove style from head tag. Then the following lines were added inside the head tag:
-'<!-- CSS stylesheet -->'
-'<link href="old.css" rel="stylesheet">'
+```HTML
+<!-- CSS stylesheet -->
+<link href="old.css" rel="stylesheet">
+```
 
 Acknowledgements:
 * Dropcaps: Author: Thoriq Firdaus, License: Not found, URL:http://www.hongkiat.com/blog/css-better-paragraph/
