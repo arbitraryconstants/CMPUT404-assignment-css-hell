@@ -1,0 +1,214 @@
+
+h1 {
+    text-align: center;
+    font-size: 6em;
+    font-family: Copperplate Gothic Light, sans-serif;
+    color: black;
+    padding-top: 0em;
+    padding-bottom: 0.em;
+}
+
+h2 {
+    font-family: Copperplate Gothic Light, sans-serif;
+    padding-top: 0.2em;
+    padding-bottom: 0.2 em;
+}
+
+/* Top Box */
+div.top_box {
+    background: #F0E7E4;
+    border: 0.2em solid #E3D9D5;
+    height: 2em;
+}
+
+/* Side Menu */
+/* Vertical fixed navbar: Author: w3schools, License: not listed, URL: http://www.w3schools.com/css/css_navbar.asp */
+ div.side_menu {
+    list-style-type: square;
+    margin: 25;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding: 0;
+    width: 25%;
+    background-color: #F0E7E4;
+    height: 63em;
+    overflow: auto;
+    float: right;
+    border: 0.2em solid #E3D9D5;
+    position: relative;
+}
+
+.side_menu p {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.side_menu h2 {
+    padding-left: 1em;
+}
+
+.side_menu a {
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* Position image bottom right corner: Written by Matt Lambert(https://stackoverflow.com/users/522409/matt-lambert), on Stackoverflow: https://stackoverflow.com/questions/17934332/how-do-i-position-an-image-at-the-bottom-of-div*/
+div.side_menu img {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height: auto;
+    width: auto;
+    max-width: 250px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    border: 0.3em solid #D9CDCA;
+}
+
+
+/* Top Menu */
+/* Horizontal active navbar: Author: w3schools, License: not listed, URL: http://www.w3schools.com/css/css_navbar.asp*/
+ul.top_menu {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 1em;
+    padding:0;
+    overflow: hidden;
+    background-color: #F0E7E4;
+    border-bottom: 0.3em solid black;
+    border-top: 0.2em solid #E3D9D5;
+    border-right: 0.2em solid #E3D9D5;
+    border-left: 0.2em solid #E3D9D5;
+}
+
+.top_menu li {
+    float: left;
+}
+
+.top_menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    text-decoration: none;
+    font-size:1.7em;
+}
+
+.top_menu li a.active {
+    font-weight: bold;
+    color: black;
+    margin-left: 2em;
+}
+
+
+/* Bottom Menu */
+/* Horizontal navbar: Author: w3schools, License: not listed, URL: http://www.w3schools.com/css/css_navbar.asp*/
+ul.bottom_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-top: 0.3em solid black;
+    background: #F0E7E4;
+    border: 0.2em solid #E3D9D5;
+}
+
+.bottom_menu li a {
+    display: block;
+    color: black;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    text-decoration: none;
+    font-size:1.5em;
+}
+
+.bottom_menu li {
+    float: left;
+}
+
+/* Auto size image: By Cherif (https://stackoverflow.com/users/1810787/cherif) on Stackoverflow: https://stackoverflow.com/questions/787839/resize-image-proportionally-with-css*/
+/* About me Section */
+.about_me img {
+    float: left;
+    display: block;
+    height: auto;
+    width: auto;
+    max-height: 250px;
+    margin-left: 0%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+div.about_me {
+    height: 20em;
+    margin-bottom: 1em;
+    border: 0.2em solid #F5EDEB;
+    margin-left: 5%;
+    margin-right: 30%;
+    padding: 1px 16px;
+}
+
+/* Experience Section */
+.experience img {
+    float: right;
+    display: block;
+    height: auto;
+    width: auto;
+    max-height: 250px;
+    margin-left: 2%;
+    margin-right: 0%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+div.experience {
+    height: 20em;
+    margin-bottom: 1em;
+    border: 0.2em solid #F5EDEB;
+    margin-left: 5%;
+    margin-right: 30%;
+    padding: 1px 16px;
+}
+
+/* Skills Section */
+.skills img {
+    float: left;
+    display: block;
+    height: auto;
+    width: auto;
+    max-height: 250px;
+    margin-left: 0%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+div.skills {
+    height: 20em;
+    margin-bottom: 1em;
+    border: 0.2em solid #F5EDEB;
+    margin-left: 5%;
+    margin-right: 30%;
+    padding: 1px 16px;
+    
+}
+
+img {
+    border: 0.3em solid #E3D9D5;
+}
+
+a {
+    font-family: Copperplate Gothic Light, sans-serif;
+}
+
+body {
+    font-family: "Courier New", Courier, monospace;
+}
+

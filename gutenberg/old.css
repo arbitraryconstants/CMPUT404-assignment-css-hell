@@ -1,0 +1,90 @@
+
+h1 {
+
+    text-align: center;
+    font-family: "UnifrakturMaguntia", "Serif";
+}
+
+h2 {
+    font-size:2em;
+    text-align: center;
+    font-family: "UnifrakturMaguntia", "Serif";
+}
+
+h3 {
+    text-align: center;
+    font-family: "UnifrakturMaguntia", "Serif";
+}
+
+h4 {
+    text-align: center;
+    font-family: Book Antiqua;
+}
+
+p {
+    text-align: justify;
+    font-family: Book Antiqua;
+    display: block;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border:0.4em solid black;
+}
+
+div p {
+    text-align: center;
+    font-family: Book Antiqua;
+    font-size:0.9em;
+    line-height: 0.9em;
+}
+
+
+/* Dropcaps: Author: Thoriq Firdaus, License: not listed, URL:http://www.hongkiat.com/blog/css-better-paragraph/*/
+h2+p:first-letter {
+    color: black;
+    font-weight: bold;
+    font-size: 5em;
+    padding: 0em 0.2em 0.2em 0.2em;
+    display: block;
+    float: left;
+    line-height: 0.5em;
+    font-family: "UnifrakturMaguntia", "Serif";
+}
+
+h3+p:first-letter {
+    color: black;
+    font-weight: bold;
+    font-size: 5em;
+    padding: 0em 0.2em 0.2em 0.2em;
+    display: block;
+    float: left;
+    line-height: 0.5em;
+    font-family: "UnifrakturMaguntia", "Serif";
+}
+
+/* used original css for pagenum from art book for .pagenum formatting: Author: not listed, License: not sure, URL: https://www.gutenberg.org/files/14264/14264-h/14264-h.htm */
+.pagenum  {
+    position: absolute;
+    left: 92%;
+    font-size: smaller;
+    text-align: right;
+}
+
+pre {
+    font-family: Book Antiqua;
+}
+
+/* Background image: Author: not listed, License: "Free License", URL:http://www.babaimage.com/image/beige-parchment-paper-background-1800x1600-background-image-wallpaper*/
+body {
+    background-image: url("background.jpeg");
+    margin:10%
+    
+}
+
+
+
+
+

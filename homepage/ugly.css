@@ -1,0 +1,143 @@
+
+h1 {
+    text-align: center;
+    font-size: 6em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: blueviolet;
+    padding-top: 0em;
+    padding-bottom: 0.em;
+    -webkit-text-stroke: 0.05em black;
+}
+
+h2 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding-top: 0.2em;
+    padding-bottom: 0.2 em;
+}
+
+/* Top Box */
+div.top_box {
+    display: none;
+}
+
+
+/* Side Menu */
+div.side_menu {
+    display:none;
+}
+
+/* Top Menu */
+/* http://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_gray*/
+ul.top_menu {
+    list-style-type: none;
+    margin: 3% 25%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #BE7DFA;
+    border-bottom: 0.5em solid black;
+    border-top: 0.5em solid white;
+    border-right: 0.5em solid blueviolet;
+    border-left: 0.5em solid blueviolet;
+}
+
+.top_menu li {
+    float: left;
+}
+
+.top_menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    text-decoration: none;
+    font-size:1.7em;
+}
+
+/* Bottom Menu */
+ul.bottom_menu {
+    display: none;
+}
+
+/* https://stackoverflow.com/questions/787839/resize-image-proportionally-with-css*/
+/* About me Section */
+.about_me img {
+    display: block;
+    height: auto;
+    width: auto;
+    max-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.5em solid blueviolet;
+}
+
+div.about_me h2 {
+    display:none;
+}
+
+div.about_me {
+    margin-bottom: 1em;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.about_me p {
+    color: blueviolet;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+/* Experience Section */
+.experience img {
+    display: none;
+}
+
+div.experience h2 {
+    display:none;
+}
+
+div.experience {
+    margin-bottom: 1em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.experience p {
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+/* Skills Section */
+.skills img {
+    display: none;
+}
+div.skills h2 {
+    display:none;
+}
+
+div.skills {
+    margin-bottom: 1em;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.skills p {
+    color: blueviolet;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/* gradients: https://www.w3schools.com/css/css3_gradients.asp */
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #86AEBA, #789E9B,#BDB684, #BDBA91, #B09272, #618F83); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #86AEBA, #789E9B,  #BDB684, #BDBA91, #B09272, #618F83); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #86AEBA, #789E9B,#BDB684, #BDBA91, #B09272, #618F83); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right,#86AEBA, #789E9B,  #BDB684, #BDBA91, #B09272, #618F83); /* Standard syntax (must be last) */
+}
+
