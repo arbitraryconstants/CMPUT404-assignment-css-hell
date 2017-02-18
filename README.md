@@ -23,7 +23,7 @@ Code is licensed under the Apache 2.0 license.
 
 Part 1
 =======
-Gutenberg htmls were all modified to remove css. Then the following lines were added inside the head tag:
+Gutenberg htmls were all modified to remove style from head tag. Then the following lines were added inside the head tag:
 <!-- CSS stylesheet -->
 <link href="old.css" rel="stylesheet">
 
@@ -34,6 +34,7 @@ Acknowledgements:
 
 Part 2
 =========
+Acknowledgements:
 * Vertical fixed navbar (side menu): Author: w3schools, License: not listed, URL: http://www.w3schools.com/css/css_navbar.asp 
 * Position image bottom right corner: Written by Matt Lambert(https://stackoverflow.com/users/522409/matt-lambert), on Stackoverflow: https://stackoverflow.com/questions/17934332/how-do-i-position-an-image-at-the-bottom-of-div
 * Horizontal active navbar (top and bottom menu): Author: w3schools, License: not listed, URL: http://www.w3schools.com/css/css_navbar.asp
